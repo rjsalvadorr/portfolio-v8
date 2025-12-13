@@ -8,7 +8,7 @@ tags:
   - "work"
   - "architecture"
   - "construction"
-thumbnail: media/adsk-takeoff/thumb.jpg
+thumbnail: ../../assets/adsk-takeoff/thumb.jpg
 slug: "adsk-takeoff"
 description: "Construction estimation on the cloud"
 draft: false

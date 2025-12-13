@@ -7,7 +7,7 @@ category: project
 tags:
   - "project"
   - "incomplete"
-thumbnail: media/broquest/thumb.jpg
+thumbnail: ../../assets/broquest/thumb.jpg
 options:
   - hideDate
 slug: "broquest"

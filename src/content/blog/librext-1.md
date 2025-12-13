@@ -8,7 +8,7 @@ tags:
   - "project"
   - "design"
   - "ui"
-thumbnail: media/librext-1/thumb.png
+thumbnail: ../../assets/librext-1/thumb.png
 slug: "librext-1"
 description: "LibRext is a UI design system and component library developed by the Guild of St. Isidore (TO)."
 draft: false

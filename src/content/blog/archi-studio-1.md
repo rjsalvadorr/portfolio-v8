@@ -7,7 +7,7 @@ category: school
 tags:
   - "school"
   - "architecture"
-thumbnail: media/arch-tech-studio-1/thumb.jpg
+thumbnail: ../../assets/architecture-tech-studio-1/thumb.jpg
 slug: "arch-tech-studio-1"
 description: "1st year architectural drafting"
 draft: false

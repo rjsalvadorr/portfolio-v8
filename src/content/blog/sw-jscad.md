@@ -8,7 +8,7 @@ tags:
   - "project"
   - "architecture"
   - "construction"
-thumbnail: media/sw-jscad/thumb.jpg
+thumbnail: ../../assets/sw-jscad/thumb.jpg
 slug: "sw-jscad"
 description: "Salvador Workshop's JSCAD utilities and toolkit"
 draft: false

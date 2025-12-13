@@ -7,7 +7,7 @@ category: work
 tags:
   - "work"
   - "research"
-thumbnail: media/uncharted-causeworks/thumb.jpg
+thumbnail: ../../assets/uncharted-causeworks/thumb.jpg
 slug: "uncharted-causeworks"
 description: "Research project @ Uncharted Software"
 draft: false

@@ -4,7 +4,7 @@ pubDate: 2021-12-02 19:00:00
 category: design
 slug: "asc-logos"
 draft: false
-thumbnail: media/asc-logos/thumb2.png
+thumbnail: ../../assets/asc-logos/thumb2.png
 description: Logos for the GBC Architectural Studies Collective
 ---
 

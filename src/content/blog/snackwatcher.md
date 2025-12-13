@@ -7,7 +7,7 @@ category: project
 tags:
   - "code fun"
   - "python"
-thumbnail: media/snackwatcher/thumb.jpg
+thumbnail: ../../assets/snackwatcher/thumb.jpg
 options:
   - hideDate
 slug: "snackwatcher"

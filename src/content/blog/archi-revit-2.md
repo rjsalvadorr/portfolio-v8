@@ -7,7 +7,7 @@ category: school
 tags:
   - "school"
   - "architecture"
-thumbnail: media/arch-tech-revit-2/thumb.jpg
+thumbnail: ../../assets/architecture-tech-revit-2/thumb.jpg
 slug: "arch-tech-revit-2"
 description: "Continuing education course"
 draft: false
