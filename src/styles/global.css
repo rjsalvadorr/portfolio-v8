@@ -1,21 +1,13 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
-
 :root {
-	--accent: #2337ff;
-	--accent-dark: #000d8a;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
 	--gray-dark: 34, 41, 57;
 	--gray-gradient: rgba(var(--gray-light), 50%), #fff;
 	--box-shadow:
-		0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%), 0 16px 32px
-		rgba(var(--gray), 33%);
+		0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%), 0 16px 32px rgba(var(--gray), 33%);
 }
+
 @font-face {
 	font-family: "Atkinson";
 	src: url("/fonts/atkinson-regular.woff") format("woff");
@@ -23,6 +15,7 @@
 	font-style: normal;
 	font-display: swap;
 }
+
 @font-face {
 	font-family: "Atkinson";
 	src: url("/fonts/atkinson-bold.woff") format("woff");
@@ -30,6 +23,7 @@
 	font-style: normal;
 	font-display: swap;
 }
+
 body {
 	/* font-family: "Atkinson", sans-serif; */
 	margin: 0;
@@ -43,70 +37,106 @@ body {
 	/* font-size: 20px; */
 	/* line-height: 1.7; */
 }
+
 main {
 	width: 720px;
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
 }
+
 strong,
 b {
 	font-weight: 700;
 }
+
 a {
-	color: var(--accent);
+	color: var(--sw-col-dark-primary);
 }
+
 a:hover {
-	color: var(--accent);
+	color: var(--sw-col-dark-primary);
 }
+
 p {
 	margin-bottom: 1em;
 }
-p, span, em, strong, tr, td, ul, ol, li {
+
+p,
+span,
+em,
+strong,
+tr,
+td,
+ul,
+ol,
+li {
 	color: var(--sw-col-dark-text);
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--sw-col-dark-primary);
+}
+
 .prose p {
 	margin-bottom: 2em;
 }
+
 textarea {
 	width: 100%;
 }
+
 table {
 	width: 100%;
 }
+
 img {
 	max-width: 100%;
 	height: auto;
 }
+
 code {
 	padding: 2px 5px;
 	background-color: rgb(var(--gray-light));
 	border-radius: 2px;
 }
+
 pre {
 	padding: 1.5em;
 	border-radius: 8px;
 }
-pre > code {
+
+pre>code {
 	all: unset;
 }
+
 blockquote {
-	border-left: 4px solid var(--accent);
+	border-left: 4px solid var(--sw-col-dark-primary);
 	padding: 0 0 0 20px;
 	margin: 0;
 }
+
 hr {
 	border: none;
 	border-top: 1px solid rgb(var(--gray-light));
 }
+
 @media (max-width: 720px) {
 	body {
 		font-size: 18px;
 	}
+
 	main {
 		padding: 1em;
 	}
+
 }
+
 
 .sr-only {
 	border: 0;
