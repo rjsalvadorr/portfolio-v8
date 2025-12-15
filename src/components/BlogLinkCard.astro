@@ -1,0 +1,32 @@
+---
+const { cardImgPath, slug, title, category, date, description, excerpt } =
+    Astro.props;
+---
+
+<div class="card">
+    <div class="card-background"></div>
+    <div class="card-image-wrapper">
+        <img class="card-image" src={`/${cardImgPath}`} alt="navigation icon" />
+    </div>
+    <article
+        class="post-list-item card-content"
+        itemscope=""
+        itemtype="http://schema.org/Article"
+    >
+        <header>
+            <h2 class="card-title">
+                <span itemprop="headline">
+                    {title}
+                </span>
+            </h2>
+            <p class="card-data">
+                <span class="card-category">{category}</span>
+                <span class="text-spacer">//</span>
+                {date}
+            </p>
+        </header>
+        <section>
+            <span itemprop="description">{description || excerpt}</span>
+        </section>
+    </article>
+</div>

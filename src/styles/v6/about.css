@@ -1,0 +1,7 @@
+.about-layout h1 {
+  text-align: center;
+}
+
+.about-layout .gatsby-resp-image-wrapper {
+  max-width: 640px !important;
+}
