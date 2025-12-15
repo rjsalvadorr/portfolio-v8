@@ -155,3 +155,59 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+
+ul.blog-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.blog-links li.blog-link {
+	width: calc(50% - 1rem);
+}
+
+ul.blog-links li.blog-link * {
+	text-decoration: none;
+}
+
+ul.blog-links li.blog-link img {
+	margin-bottom: 0.5rem;
+}
+
+ul.blog-links li.blog-link a {
+	display: block;
+}
+
+.title {
+	margin: 0;
+	color: var(--sw-col-dark-text);
+	line-height: 1;
+}
+
+.date {
+	margin: 0;
+	color: rgb(var(--gray));
+}
+
+ul.blog-links li.blog-link a:hover h4,
+ul.blog-links li.blog-link a:hover .date {
+	color: rgb(var(--sw-col-dark-primary));
+}
+
+ul.blog-links a:hover img {
+	box-shadow: var(--box-shadow);
+}
+
+@media (max-width: 720px) {
+	ul.blog-links {
+		gap: 0.5em;
+	}
+
+	ul.blog-links li.blog-link {
+		width: 100%;
+		text-align: center;
+	}
+}
