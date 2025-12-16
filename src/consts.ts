@@ -12,7 +12,7 @@ export const SITE_DESCRIPTION = `${SITE_TITLE} // ${SITE_TAGLINE}`;
 
 export const CATEGORY_TEXT = {
     project: 'Project',
-    osProject: 'Open-Source Project',
+    osProject: 'Open Source Project',
     work: 'Work Experience',
     school: 'Education',
     design: 'Design',

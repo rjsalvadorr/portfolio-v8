@@ -76,10 +76,30 @@ b {
 
 a {
 	color: var(--sw-col-dark-primary);
+	text-decoration-color: var(--sw-col-dark-primary);
+}
+
+a:link {
+	color: var(--sw-col-dark-primary);
+	text-decoration-color: var(--sw-col-dark-primary);
+}
+
+
+a:visited {
+	color: var(--sw-col-dark-primary);
+	text-decoration-color: var(--sw-col-dark-primary);
+	opacity: 0.67;
 }
 
 a:hover {
+	color: var(--sw-col-dark-secondary);
+	text-decoration-color: var(--sw-col-dark-secondary);
+}
+
+a:active {
 	color: var(--sw-col-dark-primary);
+	text-decoration-color: var(--sw-col-dark-primary);
+	opacity: 0.67;
 }
 
 p {
@@ -109,6 +129,11 @@ h6 {
 
 .prose p {
 	margin-bottom: 2em;
+}
+
+.prose h3 em {
+	font-size: inherit;
+	color: var(--sw-col-dark-primary);
 }
 
 textarea {
@@ -155,6 +180,10 @@ hr {
 	border-top: 1px solid rgb(var(--gray-light));
 }
 
+.category {
+	color: var(--sw-col-dark-primary)
+}
+
 /* ----------------------------------------
  * Posts
  * ------------------------------------- */
@@ -176,7 +205,7 @@ hr {
 }
 
 .title-line {
-	margin-top: var(--typ-space);
+	margin-top: calc(var(--typ-space) * 2.5);
 	margin-bottom: calc(var(--typ-space) * 2.5);
 }
 
@@ -243,7 +272,6 @@ ul.blog-links li.blog-link a {
 
 .blog-link .title {
 	margin: 0;
-	color: var(--sw-col-dark-text);
 	line-height: 1;
 }
 
@@ -274,11 +302,11 @@ ul.blog-links a:hover img {
 .post-info .date {
 	font-style: italic;
 	font-weight: 400;
+	opacity: 0.8;
 }
 
 .post-info .date {
 	font-size: 1rem;
-	opacity: 0.8;
 }
 
 @media (max-width: 720px) {
