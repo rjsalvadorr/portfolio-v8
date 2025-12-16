@@ -1,0 +1,18 @@
+---
+import { SITE_TITLE, SITE_TAGLINE } from "../consts";
+
+const { location } = Astro.props;
+
+const outClass = `signature ${location}`;
+const imgAlt = `signature icon (${location})`;
+---
+
+<div class={outClass}>
+    <a href="/" class="signature-link">
+        <img class="signature-icon" src="/icons/pearl-v2.svg" alt={imgAlt} />
+        <div class="signature-text">
+            <span class="signature-title">{SITE_TITLE}</span><br/>
+            <span class="signature-tagline">{SITE_TAGLINE}</span>
+        </div>
+    </a>
+</div>

@@ -9,34 +9,14 @@
 		0 2px 6px rgba(var(--sw-grey10-comp), 25%), 0 8px 24px rgba(var(--sw-grey10-comp), 33%), 0 16px 32px rgba(var(--sw-grey10-comp), 33%);
 }
 
-@font-face {
-	font-family: "Atkinson";
-	src: url("/fonts/atkinson-regular.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "Atkinson";
-	src: url("/fonts/atkinson-bold.woff") format("woff");
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
-}
-
 body {
-	/* font-family: "Atkinson", sans-serif; */
 	margin: 0;
 	padding: 0;
 	text-align: left;
 	background: var(--sw-col-dark-background);
-	/* background-size: 100% 600px; */
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: var(--sw-col-dark-text);
-	/* font-size: 20px; */
-	/* line-height: 1.7; */
 }
 
 main {
@@ -157,6 +137,10 @@ hr {
 	white-space: nowrap;
 }
 
+/* ----------------------------------------
+ * Blog Links
+ * ------------------------------------- */
+
 ul.blog-links {
 	display: flex;
 	flex-wrap: wrap;
@@ -211,4 +195,83 @@ ul.blog-links a:hover img {
 		width: 100%;
 		text-align: center;
 	}
+}
+
+/* ----------------------------------------
+ * Signature
+ * ------------------------------------- */
+
+.signature {
+	display: block;
+}
+
+.signature-link {
+	display: flex;
+	margin: 0;
+	gap: 1rem;
+	color: var(--sw-col-dark-primary);
+}
+
+a.signature-link,
+a.signature-link.active {
+	text-decoration: none;
+}
+
+.signature-link:link {
+	color: var(--sw-col-dark-primary);
+}
+
+.signature-link:visited {
+	color: var(--sw-col-dark-primary);
+}
+
+.signature-link:hover {
+	color: var(--sw-col-dark-text);
+}
+
+.signature-link:active {
+	color: var(--sw-col-dark-primary);
+}
+/* 
+.signature.header {
+	flex: 1 1 auto;
+} */
+
+.signature-icon {
+	max-height: 4rem;
+}
+
+.signature-text {
+	margin: 0;
+	/* padding: 0 1em; */
+	font-weight: 400;
+	font-size: var(--sw-tscale-body);
+	font-family: var(--sw-fontfam-heading);
+	line-height: 1.67;
+	text-align: left;
+	flex: 1 0 26rem;
+}
+
+.signature-title {
+	display: inline-block;
+	margin: 0.25rem 0 0 0;
+	font-weight: 400;
+	font-size: var(--sw-tscale-h3);
+	font-family: var(--sw-fontfam-heading);
+	font-style: normal;
+	letter-spacing: 0.15rem;
+	line-height: 1.25;
+}
+
+.signature-tagline {
+	/* display: inline-block; */
+	font-size: 1rem;
+	width: 100%;
+	letter-spacing: 0.15rem;
+}
+
+.signature-title,
+.signature-tagline {
+	line-height: 1;
+	color: inherit;
 }
