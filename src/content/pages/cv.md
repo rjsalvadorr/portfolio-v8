@@ -1,8 +1,8 @@
 ---
-title: CV
+title: Curriculum Vitæ / Resumé
 pubDate: 2025-06-11 15:00:00
 category: page
-description: 'CV/Resume'
+description: 'CV / Resume'
 slug: "cv"
 draft: false
 ---

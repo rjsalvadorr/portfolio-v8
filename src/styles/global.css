@@ -329,7 +329,7 @@ ul.blog-links a:hover img {
 }
 
 .signature.header {
-	margin: var(--typ-space) 0;
+	margin: calc(var(--typ-space) * 1.5) 0;
 }
 
 .signature-link {

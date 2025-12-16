@@ -15,7 +15,7 @@ const portfolio = defineCollection({
 			draft: z.boolean(),
 			tags: z.array(z.string()).optional(),
 			// Transform string to Date object
-			pubDate: z.coerce.date(),
+			pubDate: z.coerce.date().optional(),
 			updatedDate: z.coerce.date().optional(),
 			thumbnail: image().optional(),
 			heroImage: image().optional(),
@@ -36,9 +36,6 @@ const pages = defineCollection({
 			slug: z.string(),
 			draft: z.boolean(),
 			tags: z.array(z.string()).optional(),
-			// Transform string to Date object
-			pubDate: z.coerce.date(),
-			updatedDate: z.coerce.date().optional(),
 			thumbnail: image().optional(),
 			heroImage: image().optional(),
 			template: z.string().optional(),

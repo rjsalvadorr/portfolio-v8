@@ -62,7 +62,7 @@ const categoryProp = CATEGORY_TEXT[category];
 				<div class="prose">
 					<div class="post-title">
 						<div class="date">
-							<FormattedDate date={pubDate} />
+							{pubDate && <FormattedDate date={pubDate} />}
 							{
 								updatedDate && (
 									<div class="last-updated-on">
