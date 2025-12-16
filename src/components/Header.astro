@@ -23,7 +23,7 @@ import HeaderLink from "./HeaderLink.astro";
 		border-bottom: 1px var(--sw-col-dark-text) solid;
 		font-weight: 400;
 		font-size: var(--sw-tscale-body);
-		font-family: var(--sw-fontfam-body);
+		font-family: var(--sw-fontfam-heading);
 		letter-spacing: 0.02rem;
 		line-height: 1.5;
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
@@ -43,8 +43,10 @@ import HeaderLink from "./HeaderLink.astro";
 		justify-content: space-between;
 	}
 	nav a {
-		padding: 1em 0.5em;
+		padding: 1rem;
 		color: var(--sw-col-dark-text);
+		font-family: var(--sw-fontfam-heading);
+		margin-bottom: 0;
 		border-bottom: 4px solid transparent;
 		text-decoration: none;
 	}
