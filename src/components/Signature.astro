@@ -1,5 +1,5 @@
 ---
-import { SITE_TITLE, SITE_TAGLINE } from "../consts";
+import { SITE_TITLE, SITE_SPECIALTY, SITE_FOUNDATION } from "../consts";
 
 const { location } = Astro.props;
 
@@ -11,8 +11,10 @@ const imgAlt = `signature icon (${location})`;
     <a href="/" class="signature-link">
         <img class="signature-icon" src="/icons/pearl-v2.svg" alt={imgAlt} />
         <div class="signature-text">
-            <span class="signature-title">{SITE_TITLE}</span><br/>
-            <span class="signature-tagline">{SITE_TAGLINE}</span>
+            <span class="signature-title">Salvador<br/>Workshop</span><br />
+            <span class="signature-tagline">
+                {SITE_SPECIALTY}<br/>{SITE_FOUNDATION}
+            </span>
         </div>
     </a>
 </div>

@@ -41,15 +41,18 @@ import Signature from "./Signature.astro";
 		justify-content: space-between;
 	}
 	nav a {
-		padding: 2rem 1.25rem;
+		padding: 0 1.25rem;
 		color: var(--sw-col-dark-text);
 		font-family: var(--sw-fontfam-heading);
 		margin-bottom: 0;
 		border-bottom: 4px solid transparent;
 		text-decoration: none;
 	}
+	nav a:hover {
+		opacity: 0.833;
+	}
 	nav a.active {
 		text-decoration: none;
-		border-bottom-color: var(--sw-col-dark-primary);
+		color: var(--sw-col-dark-primary);
 	}
-</style>
+</style>``

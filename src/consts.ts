@@ -7,7 +7,9 @@ export const CURRENT_YEAR_ROMAN = 'MMXXV'
 
 export const OWNER_NAME = 'Salvador Workshop';
 export const SITE_TITLE = 'Salvador Workshop';
-export const SITE_TAGLINE = `Technology & Design // Toronto. ${FOUNDING_YEAR_ROMAN}`;
+export const SITE_SPECIALTY = 'Technology & Design';
+export const SITE_FOUNDATION = `Toronto, CAN — ${FOUNDING_YEAR_ROMAN}`;
+export const SITE_TAGLINE = `${SITE_SPECIALTY} // ${SITE_FOUNDATION}`;
 export const SITE_DESCRIPTION = `${SITE_TITLE} // ${SITE_TAGLINE}`;
 
 export const CATEGORY_TEXT = {
