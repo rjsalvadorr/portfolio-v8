@@ -36,6 +36,8 @@ const posts = (await getCollection("portfolio")).sort(
 								thumbnail={post.data.thumbnail}
 								title={post.data.title}
 								pubDate={post.data.pubDate}
+								category={post.data.category}
+								description={post.data.description}
 							/>
 						))
 					}
