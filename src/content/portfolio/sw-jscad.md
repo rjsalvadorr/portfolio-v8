@@ -3,7 +3,7 @@ title: sw-jscad
 subtitle:
 pubDate: 2025-06-18 17:28:30
 template: post
-category: project
+category: osProject
 tags:
   - "project"
   - "architecture"

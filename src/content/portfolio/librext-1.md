@@ -3,7 +3,7 @@ title: LibRext (v0.1.9)
 subtitle:
 pubDate: 2025-12-07 23:02:05
 template: post
-category: project
+category: osProject
 tags:
   - "project"
   - "design"

@@ -1,9 +1,9 @@
 ---
-title: Editoris Melicorum (EMEL) v0.0.7
+title: EdiMeli (v0.0.7)
 subtitle:
 pubDate: 2025-09-04 18:02:06
 template: post
-category: project
+category: osProject
 tags:
   - "project"
   - "music"

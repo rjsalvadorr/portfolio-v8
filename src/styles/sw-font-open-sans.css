@@ -91,7 +91,7 @@
 @font-face {
   font-family: 'OpenSans';
   src: url('/fonts/open-sans/OpenSans-BoldItalic.ttf');
-  font-weight: normal;
+  font-weight: bold;
   font-style: italic;
 }
 
