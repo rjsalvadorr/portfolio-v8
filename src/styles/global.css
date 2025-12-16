@@ -7,9 +7,50 @@
 	--gray-gradient: rgba(var(--gray-light), 50%), #fff;
 	--box-shadow:
 		0 2px 6px rgba(var(--sw-grey10-comp), 25%), 0 8px 24px rgba(var(--sw-grey10-comp), 33%), 0 16px 32px rgba(var(--sw-grey10-comp), 33%);
+
 	--portfolio-gutter: 2rem;
+	--typ-space: 1.5rem;
+	--container-offset: calc(var(--typ-space) * 4);
 	--typ-blog-link-space: 0.75rem;
 	--typ-blog-link-space-sm: calc(var(--typ-blog-link-space) * 0.618033);
+
+	--page-container-width: calc(100vw - var(--container-offset))
+}
+
+@media (min-width: 320px) {
+	:root {
+		--page-container-width: calc(320px - var(--container-offset))
+	}
+}
+
+@media (min-width: 480px) {
+	:root {
+		--page-container-width: calc(480px - var(--container-offset))
+	}
+}
+
+@media (min-width: 768px) {
+	:root {
+		--page-container-width: calc(768px - var(--container-offset))
+	}
+}
+
+@media (min-width: 1024px) {
+	:root {
+		--page-container-width: calc(1024px - var(--container-offset))
+	}
+}
+
+@media (min-width: 1440) {
+	:root {
+		--page-container-width: calc(1440 - var(--container-offset))
+	}
+}
+
+@media (min-width: 1920px) {
+	:root {
+		--page-container-width: calc(1920px - var(--container-offset))
+	}
 }
 
 body {
@@ -23,10 +64,11 @@ body {
 }
 
 main {
-	width: 720px;
-	max-width: calc(100% - 2em);
-	margin: auto;
-	padding: 3em 1em;
+	/* width: 720px;
+	max-width: calc(100% - 2em); */
+	width: var(--page-container-width);
+	margin: 0 auto;
+	padding: 3em 0;
 }
 
 strong,
@@ -115,9 +157,9 @@ hr {
 		font-size: 18px;
 	}
 
-	main {
+	/* main {
 		padding: 1em;
-	}
+	} */
 
 }
 
@@ -193,19 +235,23 @@ ul.blog-links a:hover img {
 .post-link {
 	margin-bottom: var(--typ-blog-link-space-sm);
 }
+
 .post-info {
 	margin-bottom: var(--typ-blog-link-space-sm);
 	line-height: 1.15;
 }
+
 .post-info-line {
 	margin-top: var(--typ-blog-link-space-sm);
 	margin-bottom: var(--typ-blog-link-space-sm);
 }
+
 .post-info .category,
 .post-info .date {
 	font-style: italic;
 	font-weight: 400;
 }
+
 .post-info .date {
 	font-size: 1rem;
 	opacity: 0.8;
@@ -257,6 +303,7 @@ a.signature-link.active {
 .signature-link:active {
 	color: var(--sw-col-dark-primary);
 }
+
 /* 
 .signature.header {
 	flex: 1 1 auto;
@@ -275,6 +322,13 @@ a.signature-link.active {
 	line-height: 1.67;
 	text-align: left;
 	flex: 1 0 26rem;
+}
+
+/* .footer .signature-link {
+	justify-content: center;
+} */
+.footer .signature-text {
+	flex: 0 0 26rem;
 }
 
 .signature-title {

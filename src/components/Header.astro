@@ -5,19 +5,21 @@ import Signature from "./Signature.astro";
 ---
 
 <header>
-	<nav>
-		<Signature location="header"/>
-		<div class="internal-links">
-			<HeaderLink href="/">Portfolio</HeaderLink>
-			<HeaderLink href="/cv">Resume / CV</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
-		</div>
-	</nav>
+	<div class="header-wrapper">
+		<nav>
+			<Signature location="header" />
+			<div class="internal-links">
+				<HeaderLink href="/">Portfolio</HeaderLink>
+				<HeaderLink href="/cv">Resume / CV</HeaderLink>
+				<HeaderLink href="/about">About</HeaderLink>
+			</div>
+		</nav>
+	</div>
 </header>
 <style>
 	header {
 		margin: 0;
-		padding: 0 1em;
+		padding: 0;
 		color: var(--sw-col-dark-text);
 		background-image: url("../assets/backgrounds/noisy-grid-dark.png");
 		border-bottom: 1px var(--sw-col-dark-text) solid;
@@ -28,6 +30,11 @@ import Signature from "./Signature.astro";
 		line-height: 1.5;
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
 	}
+	.header-wrapper {
+		width: var(--page-container-width);
+		margin: 0 auto;
+	}
+
 	nav {
 		display: flex;
 		align-items: center;
