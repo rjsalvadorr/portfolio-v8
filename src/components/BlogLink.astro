@@ -1,17 +1,11 @@
 ---
+import { CATEGORY_TEXT } from "../consts";
 import { Image } from "astro:assets";
 import FormattedDate from "./FormattedDate.astro";
 
 const { id, thumbnail, title, pubDate, category, description } = Astro.props;
 
-const ctgMap = {
-    project: 'Project',
-    osProject: 'Open-Source Project',
-    work: 'Work',
-    school: 'Education',
-    design: 'Design',
-}
-
+const ctgMap = CATEGORY_TEXT;
 ---
 
 <li class="blog-link">

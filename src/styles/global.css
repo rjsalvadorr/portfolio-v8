@@ -41,15 +41,15 @@
 	}
 }
 
-@media (min-width: 1440) {
+@media (min-width: 1440px) {
 	:root {
-		--page-container-width: calc(1440 - var(--container-offset))
+		--page-container-width: calc(1440px - var(--container-offset))
 	}
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1680px) {
 	:root {
-		--page-container-width: calc(1920px - var(--container-offset))
+		--page-container-width: calc(1680px - var(--container-offset))
 	}
 }
 
@@ -64,8 +64,6 @@ body {
 }
 
 main {
-	/* width: 720px;
-	max-width: calc(100% - 2em); */
 	width: var(--page-container-width);
 	margin: 0 auto;
 	padding: 3em 0;
@@ -147,9 +145,39 @@ blockquote {
 	margin: 0;
 }
 
+blockquote p {
+	font-style: italic;
+	letter-spacing: 0.0375rem;
+}
+
 hr {
 	border: none;
 	border-top: 1px solid rgb(var(--gray-light));
+}
+
+/* ----------------------------------------
+ * Posts
+ * ------------------------------------- */
+
+.post-title .title {
+	letter-spacing: 0.15rem;
+}
+
+.post-title .date,
+.post-title .category {
+	margin: 0;
+	font-weight: 400;
+	font-size: var(--sw-tscale-small);
+	font-family: var(--sw-fontfam-body);
+	font-style: normal;
+	letter-spacing: 0.1rem;
+	line-height: 1.5;
+	opacity: 0.833;
+}
+
+.title-line {
+	margin-top: var(--typ-space);
+	margin-bottom: calc(var(--typ-space) * 2.5);
 }
 
 @media (max-width: 720px) {
@@ -213,14 +241,10 @@ ul.blog-links li.blog-link a {
 	display: block;
 }
 
-.title {
+.blog-link .title {
 	margin: 0;
 	color: var(--sw-col-dark-text);
 	line-height: 1;
-}
-
-.date {
-	margin: 0;
 }
 
 ul.blog-links li.blog-link a:hover h4,
@@ -304,18 +328,12 @@ a.signature-link.active {
 	color: var(--sw-col-dark-primary);
 }
 
-/* 
-.signature.header {
-	flex: 1 1 auto;
-} */
-
 .signature-icon {
 	max-height: 4rem;
 }
 
 .signature-text {
 	margin: 0;
-	/* padding: 0 1em; */
 	font-weight: 400;
 	font-size: var(--sw-tscale-body);
 	font-family: var(--sw-fontfam-heading);
@@ -324,9 +342,6 @@ a.signature-link.active {
 	flex: 1 0 26rem;
 }
 
-/* .footer .signature-link {
-	justify-content: center;
-} */
 .footer .signature-text {
 	flex: 0 0 26rem;
 }
@@ -343,7 +358,6 @@ a.signature-link.active {
 }
 
 .signature-tagline {
-	/* display: inline-block; */
 	font-size: 1rem;
 	width: 100%;
 	letter-spacing: 0.15rem;

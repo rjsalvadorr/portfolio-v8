@@ -9,3 +9,11 @@ export const OWNER_NAME = 'Salvador Workshop';
 export const SITE_TITLE = 'Salvador Workshop';
 export const SITE_TAGLINE = `Technology & Design // Toronto. ${FOUNDING_YEAR_ROMAN}`;
 export const SITE_DESCRIPTION = `${SITE_TITLE} // ${SITE_TAGLINE}`;
+
+export const CATEGORY_TEXT = {
+    project: 'Project',
+    osProject: 'Open-Source Project',
+    work: 'Work Experience',
+    school: 'Education',
+    design: 'Design',
+}
