@@ -76,18 +76,18 @@ const categoryProp = CATEGORY_TEXT[category];
 						<span class="category">{categoryProp}</span>
 						<hr class="title-line" />
 					</div>
-					<div class="hero-image">
-						{
-							heroImage && (
+					{
+						heroImage && (
+							<div class="hero-image">
 								<Image
 									width={1020}
 									height={510}
 									src={heroImage}
 									alt=""
 								/>
-							)
-						}
-					</div>
+							</div>
+						)
+					}
 					<slot />
 				</div>
 			</article>
