@@ -150,9 +150,13 @@ img {
 }
 
 code {
-	padding: 2px 5px;
-	background-color: rgb(var(--gray-light));
+	/* padding: 2px 5px; */
+	color: var(--sw-col-dark-secondary);
 	border-radius: 2px;
+}
+
+code span {
+	font-family: inherit;
 }
 
 pre {
@@ -182,6 +186,21 @@ hr {
 
 .category {
 	color: var(--sw-col-dark-primary)
+}
+
+th,
+td {
+	margin: 0;
+	font-weight: 400;
+	font-size: var(--sw-tscale-small);
+	font-family: var(--sw-fontfam-body);
+	font-style: normal;
+	/* letter-spacing: 0.1rem; */
+	line-height: 1.5;
+}
+
+th {
+	font-weight: bold;
 }
 
 /* ----------------------------------------
