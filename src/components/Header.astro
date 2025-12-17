@@ -7,7 +7,9 @@ import Signature from "./Signature.astro";
 <header>
 	<div class="header-wrapper">
 		<nav>
-			<Signature location="header" />
+			<div class="logo-wordmark">
+				<Signature location="header" />
+			</div>
 			<div class="internal-links">
 				<HeaderLink href="/">Portfolio</HeaderLink>
 				<HeaderLink href="/cv">C.V. / Resumé</HeaderLink>
@@ -37,6 +39,7 @@ import Signature from "./Signature.astro";
 
 	nav {
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
 		justify-content: space-between;
 	}
@@ -54,5 +57,21 @@ import Signature from "./Signature.astro";
 	nav a.active {
 		text-decoration: none;
 		color: var(--sw-col-dark-primary);
+	}
+	.logo-wordmark {
+		flex: 0 0 18.25rem;
+	}
+	.internal-links {
+		flex: 1 1 auto;
+	}
+
+	@media (min-width: 480px) {
+		nav {
+			flex-wrap: nowrap;
+		}
+		.logo-wordmark {
+			padding-right: 2rem;
+			border-right: 1px var(--sw-col-dark-text) solid;
+		}
 	}
 </style>
