@@ -1,38 +1,12 @@
 ---
-import AboutHeroImage from "../assets/it-me.jpg";
 import Layout from "../layouts/BlogPost.astro";
+import { getCollection, render } from "astro:content";
+
+const aboutData = (await getCollection("pages")).find(data => data.id == 'about-me')
+console.log(aboutData)
+const { Content } = await render(aboutData);
 ---
 
-<Layout
-	title="About Me"
-	description="Lorem ipsum dolor sit amet"
-	heroImage={AboutHeroImage}
->
-	<p>
-		Hi, my name is RJ Salvador and I'm a software engineer based in Toronto,
-		Canada. Having worked in web development since 2014, I've learned how to
-		use several technologies to tackle issues across tech stacks. As my
-		career progressed, I developed a focus on the front-end, UI/UX, data
-		visualization, and 3D modeling. More recently, I've worked with complex
-		data visualizations in a research project (Uncharted Software) and 2D/3D
-		construction estimation (Autodesk Construction Solutions).
-	</p>
-
-	<p>
-		Nowdays, I'm setting my sights on emerging digital tools in AEC
-		(Architecture, Engineering, Construction). Historically, my family in
-		the Philippines has strong ties to this line of work. My grandfather was
-		an aircraft mechanic, and one of his cousins founded a construction
-		company (which built my childhood home). Unsurprisingly, I've always had
-		an interest in architecture, and I finally took college courses for
-		Architecture Tech during the pandemic. I hope to leverage tech to
-		sustainably improve the built environment, while making life easier for
-		the people building it.
-	</p>
-
-	<p>
-		When I'm away from work, I'm usually playing music or hanging out at a
-		climbing gym. I'm an avid musician and love playing guitar (flamenco),
-		bass (jazz/RnB), and cello (classical).
-	</p>
+<Layout {...aboutData.data}>
+	<Content />
 </Layout>

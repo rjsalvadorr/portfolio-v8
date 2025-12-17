@@ -2,7 +2,7 @@
 title: Curriculum Vitæ / Resumé
 pubDate: 2025-06-11 15:00:00
 category: page
-description: 'CV / Resume'
+description: CV / Resume
 slug: "cv"
 draft: false
 ---
@@ -56,7 +56,7 @@ I'm seeking technical roles where I can leverage my skills in software, architec
 ### Software Engineer — _Uncharted Software_
 
 **Nov 2019 — Apr 2021** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada  
-**Key technologies** — Ember.js, Cytoscape, Node.js, Express.js, Python, Docker Microservices, JavaScript, HTML/CSS
+**Key technologies** — Ember.js, Cytoscape, Express.js, Python, Docker Microservices, JavaScript, HTML/CSS
 
 - Worked on Causeworks, a research app for understanding scenarios through graph analysis.
 - Integrated external analysis modules, such as a Python module from Virginia Tech researchers
@@ -85,14 +85,14 @@ I'm seeking technical roles where I can leverage my skills in software, architec
 **Oct 2025 — Present** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada  
 **Key skills** — CSS, Node.js, NPM workspaces, System-UI, Historical Visual Design
 
-- LibRext is a classicist UI design system and component library for screen and paper, and e-readers.
+- LibRext is a classicist UI design system and component library for screen, paper, and e-readers.
 
 ### EdiMeli — _Guild of St. Isidore (TO)_
 
 **Jun 2025 — Present** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada  
 **Key skills** — Python, LilyPond (LY), GABC, Modern Music Theory, Historical Music Theory
 
-- EdiMeli is a music typesetting toolkit for musicians working with Gregorian notation.
+- EdiMeli is a music typesetting toolkit for musicians working with Gregorian notation (square notes).
 
 ### sw-jscad — _Salvador Workshop_
 
