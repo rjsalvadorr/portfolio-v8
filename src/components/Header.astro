@@ -21,7 +21,7 @@ import Signature from "./Signature.astro";
 <style>
 	header {
 		margin: 0;
-		padding: 0;
+		padding: 0 0 var(--typ-space) 0;
 		color: var(--sw-col-dark-text);
 		background-image: url("../assets/backgrounds/noisy-grid-dark.png");
 		border-bottom: 1px var(--sw-col-dark-text) solid;
@@ -44,7 +44,7 @@ import Signature from "./Signature.astro";
 		justify-content: space-between;
 	}
 	nav a {
-		padding: 0 1.25rem;
+		padding: 0;
 		color: var(--sw-col-dark-text);
 		font-family: var(--sw-fontfam-heading);
 		margin-bottom: 0;
@@ -63,15 +63,30 @@ import Signature from "./Signature.astro";
 	}
 	.internal-links {
 		flex: 1 1 auto;
+		/* text-align: center; */
 	}
 
-	@media (min-width: 480px) {
+	@media (min-width: 540px) {
+		header {
+			padding: 0;
+		}
 		nav {
 			flex-wrap: nowrap;
 		}
+		nav a {
+			padding: 0 var(--typ-space);
+		}
 		.logo-wordmark {
-			padding-right: 2rem;
+			padding-right: var(--typ-space);
 			border-right: 1px var(--sw-col-dark-text) solid;
+		}
+	}
+	@media (min-width: 768px) {
+		nav a {
+			padding: 0 var(--portfolio-gutter);
+		}
+		.logo-wordmark {
+			padding-right: var(--portfolio-gutter);
 		}
 	}
 </style>

@@ -14,7 +14,7 @@
 	--typ-blog-link-space: 0.75rem;
 	--typ-blog-link-space-sm: calc(var(--typ-blog-link-space) * 0.618033);
 
-	--page-container-width: calc(100vw - var(--container-offset))
+	--page-container-width: calc(100vw - 1rem)
 }
 
 @media (min-width: 320px) {
@@ -329,7 +329,7 @@ ul.blog-links a:hover img {
 }
 
 .signature.header {
-	margin: calc(var(--typ-space) * 1.5) 0;
+	margin: var(--typ-space) 0;
 }
 
 .signature-link {
@@ -401,4 +401,10 @@ a.signature-link.active {
 .signature-title,
 .signature-tagline {
 	color: inherit;
+}
+
+@media (min-width: 540px) {
+	.signature.header {
+		margin: calc(var(--typ-space) * 1.5) 0;
+	}
 }
