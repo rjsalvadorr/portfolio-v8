@@ -11,45 +11,59 @@
 	--portfolio-gutter: 2rem;
 	--typ-space: 1.5rem;
 	--container-offset: calc(var(--typ-space) * 4);
+	--container-offset-sm: calc(var(--typ-space) * 3);
+	--container-offset-xs: calc(var(--typ-space) * 2);
 	--typ-blog-link-space: 0.75rem;
 	--typ-blog-link-space-sm: calc(var(--typ-blog-link-space) * 0.618033);
 
-	--page-container-width: calc(100vw - 1rem)
+	--page-container-width: calc(100vw - var(--container-offset-xs))
 }
 
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
 	:root {
-		--page-container-width: calc(320px - var(--typ-space))
+		--page-container-width: calc(100vw - var(--container-offset-xs))
+	}
+} */
+
+/* @media (min-width: 480px) {
+	:root {
+		--page-container-width: calc(100vw - var(--typ-space));
+	}
+} */
+
+@media (min-width: 540px) {
+	:root {
+		--page-container-width: calc(540px - var(--container-offset-xs));
 	}
 }
 
-@media (min-width: 480px) {
+@media (min-width: 640px) {
 	:root {
-		--page-container-width: calc(480px - var(--typ-space))
+		--page-container-width: calc(640px - var(--container-offset-sm));
 	}
 }
 
 @media (min-width: 768px) {
 	:root {
-		--page-container-width: calc(768px - var(--container-offset))
+		--page-container-width: calc(768px - var(--container-offset));
 	}
 }
 
 @media (min-width: 1024px) {
 	:root {
-		--page-container-width: calc(1024px - var(--container-offset))
+		--page-container-width: calc(1024px - var(--container-offset));
 	}
 }
 
 @media (min-width: 1440px) {
 	:root {
-		--page-container-width: calc(1440px - var(--container-offset))
+		--page-container-width: calc(1440px - var(--container-offset));
 	}
 }
 
 @media (min-width: 1680px) {
 	:root {
-		--page-container-width: calc(1680px - var(--container-offset))
+		--page-container-width: calc(1680px - var(--container-offset));
 	}
 }
 
