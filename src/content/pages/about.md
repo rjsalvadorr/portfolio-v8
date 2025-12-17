@@ -7,8 +7,6 @@ slug: "about-me"
 draft: false
 ---
 
-# About Me
-
 ![Portrait of the author](../../assets/it-me.jpg)
 
 My name's RJ and I'm a software engineer based in Toronto, Canada. Having worked in web development since 2014, I've learned how to use several technologies to tackle issues across tech stacks. As my career progressed, I developed a focus on the front-end, UI/UX, data visualization, and 3D modeling. More recently, I've worked with complex data visualizations in a research project (Uncharted Software) and 2D/3D construction estimation (Autodesk Construction Solutions).

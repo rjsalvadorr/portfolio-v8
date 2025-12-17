@@ -10,7 +10,7 @@ tags:
   - "construction"
 thumbnail: ../../assets/sw-jscad/thumb.jpg
 slug: "sw-jscad"
-description: "Salvador Workshop's JSCAD utilities and toolkit"
+description: "JavaScript library that extends JSCAD to create 2D and 3D designs"
 draft: false
 ---
 

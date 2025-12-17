@@ -10,21 +10,21 @@ tags:
   - "sacred"
 thumbnail: ../../assets/emel-antiphons/thumb.png
 slug: "emel-01"
-description: "GSI's music typesetting tools"
+description: "Music typesetting toolkit for musicians working with Gregorian notation (square notes)"
 draft: false
 ---
 
 _Core technologies -- Python, LilyPond (LY), GABC_
 
-Editoris Melicorum is a digital music typesetting toolkit for music ministries in Catholic parishes. The toolkit helps build musical arrangements around traditional hymns in Gregorian notation. As well as laying them out into documents, both for the congregation and the choir/musicians.
+EdiMeli is a digital music typesetting toolkit for music ministries in Catholic parishes. The toolkit helps build musical arrangements around traditional hymns in Gregorian notation. As well as laying them out into documents, both for the congregation and the choir/musicians.
 
 | Item | Link |
 | --- | --- |
-| GitHub repository | https://github.com/guild-st-isidore-TO/editorismelicorum |
-| PDF info handout | https://github.com/guild-st-isidore-TO/editorismelicorum/blob/main/static/emel-antiphons.pdf |
-| Score example (complete guitar) | https://github.com/guild-st-isidore-TO/editorismelicorum/blob/main/static/marian-antiphons-simple-all-v0.8.pdf |
-| Score example (guitar accomp.) | https://github.com/guild-st-isidore-TO/editorismelicorum/blob/main/static/marian-antiphons-simple-accomp-v0.8.pdf |
-| Score example (guitar solo) | https://github.com/guild-st-isidore-TO/editorismelicorum/blob/main/static/marian-antiphons-simple-solo-v0.8.pdf |
+| GitHub repository | https://github.com/guild-st-isidore-TO/edimeli |
+| PDF info handout | https://github.com/guild-st-isidore-TO/edimeli/blob/main/static/emel-antiphons.pdf |
+| Score example (complete guitar) | https://github.com/guild-st-isidore-TO/edimeli/blob/main/static/marian-antiphons-simple-all-v0.8.pdf |
+| Score example (guitar accomp.) | https://github.com/guild-st-isidore-TO/edimeli/blob/main/static/marian-antiphons-simple-accomp-v0.8.pdf |
+| Score example (guitar solo) | https://github.com/guild-st-isidore-TO/edimeli/blob/main/static/marian-antiphons-simple-solo-v0.8.pdf |
 
 ## Background & Inspiration
 
@@ -67,7 +67,7 @@ _SOURCE: Church Music Association of America_
 
 ![Generic image desc](../../assets/emel-antiphons/salve-regina-03.jpg)
 
-## Editoris Melicorum (EMEL) v. 0.0.7
+## EdiMeli v0.0.7
 
 This version of EMEL can produce three versions of sheets from hymns in GregoBase:
 
@@ -99,7 +99,7 @@ https://gregorio-project.github.io/gabc/
 
 Under the hood, EMEL converts GABC data (which describes Gregorian Notation) to LY data (which describes modern Standard Musical Notation). This is done primarily through Python scripts and related tech. More info available at:  
 https://lilypond.org/  
-https://github.com/guild-st-isidore-TO/editorismelicorum
+https://github.com/guild-st-isidore-TO/edimeli
 
 ### GABC source code
 
