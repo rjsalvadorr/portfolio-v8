@@ -97,7 +97,7 @@ I'm seeking technical roles where I can leverage my skills in software, architec
 ### sw-jscad — _Salvador Workshop_
 
 **Jan 2025 — Present** &nbsp; &nbsp; // &nbsp; &nbsp; Toronto, Canada  
-**Key skills** — 3D Modeling, CAD/CAM Software, Library/Package Design, JavaScript, NPM Ecoystem, Open Source Dev't
+**Key skills** — JavaScript, Node.js + NPM, 3D Modeling, CAD/CAM Software
 
 - sw-jscad is an open source library that extends JSCAD to create 2D and 3D designs with JavaScript.
 
