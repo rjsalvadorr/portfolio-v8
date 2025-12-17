@@ -85,7 +85,7 @@ I'm seeking technical roles where I can leverage my skills in software, architec
 **Oct 2025 — Present** &nbsp; &nbsp; // &nbsp; &nbsp; Toronto, Canada  
 **Key skills** — CSS, Node.js, NPM workspaces, System-UI / Theme-UI
 
-- LibRext (Librarium Textuum / Library of Frameworks) is a UI design system and component library
+- LibRext is a classicist UI design system and component library for screen and paper.
 
 ### EdiMeli — _Guild of St. Isidore (TO)_
 
@@ -126,9 +126,9 @@ I'm seeking technical roles where I can leverage my skills in software, architec
 
 ## Volunteering
 
-Singer / Cantor — St. Vincent de Paul Parish (Roncesvalles)
+### Singer / Cantor — St. Vincent de Paul Parish (Roncesvalles)
 
-**Oct 2024 — Present** &nbsp; &nbsp; // &nbsp; &nbsp; Toronto, Canada  
+**Oct 2024 — Nov 2025** &nbsp; &nbsp; // &nbsp; &nbsp; Toronto, Canada  
 **Key skills** — Vocal and choral musicianship, Gregorian chant, Latin language
 
 - Serving my community by singing with the choir in mass, and chanting during communal prayer.
