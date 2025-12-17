@@ -21,7 +21,7 @@ import Signature from "./Signature.astro";
 <style>
 	header {
 		margin: 0;
-		padding: 0 0 var(--typ-space) 0;
+		padding: 0 0 1rem 0;
 		color: var(--sw-col-dark-text);
 		background-image: url("../assets/backgrounds/noisy-grid-dark.png");
 		border-bottom: 1px var(--sw-col-dark-text) solid;
@@ -74,7 +74,7 @@ import Signature from "./Signature.astro";
 			flex-wrap: nowrap;
 		}
 		nav a {
-			padding: 0 var(--typ-space);
+			margin-left: var(--typ-space);
 		}
 		.logo-wordmark {
 			padding-right: var(--typ-space);
@@ -83,7 +83,7 @@ import Signature from "./Signature.astro";
 	}
 	@media (min-width: 768px) {
 		nav a {
-			padding: 0 var(--portfolio-gutter);
+			margin-left: var(--portfolio-gutter);
 		}
 		.logo-wordmark {
 			padding-right: var(--portfolio-gutter);

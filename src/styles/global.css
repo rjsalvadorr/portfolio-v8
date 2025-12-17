@@ -264,6 +264,9 @@ ul.blog-links li.blog-link * {
 
 ul.blog-links li.blog-link img {
 	margin-bottom: var(--typ-blog-link-space);
+	width: 100%;
+	aspect-ratio: 3 / 2;
+	object-fit: cover;
 }
 
 ul.blog-links li.blog-link a {
@@ -363,7 +366,7 @@ a.signature-link.active {
 }
 
 .signature-icon {
-	max-height: 5.5rem;
+	max-height: 5.4rem;
 }
 
 .signature-text {
