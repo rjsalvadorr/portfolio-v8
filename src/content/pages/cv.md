@@ -126,7 +126,7 @@ I'm seeking technical roles where I can leverage my skills in software, architec
 
 ## Volunteering
 
-### Singer / Cantor — St. Vincent de Paul Parish (Roncesvalles)
+### Singer / Cantor — _St. Vincent de Paul Parish (Roncesvalles)_
 
 **Oct 2024 — Nov 2025** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada  
 **Key skills** — Vocal and choral musicianship, Gregorian chant, Latin language
