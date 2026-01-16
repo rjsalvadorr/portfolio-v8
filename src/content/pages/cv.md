@@ -11,11 +11,12 @@ draft: false
 
 ### Software Engineer
 
-[rjsalvadorr.com](https://rjsalvadorr.com)  
+[salvador-workshop.ca](https://salvador-workshop.ca)  
 [salvador.workshop@gmail.com](mailto:salvador.workshop@gmail.com)  
 [linkedin.com/in/rjsalvadorr](https://linkedin.com/in/rjsalvadorr)  
+[github.com/rjsalvadorr](https://github.com/rjsalvadorr)  
 [github.com/guild-st-isidore-TO](https://github.com/guild-st-isidore-TO)  
-[github.com/salvador-workshop](https://github.com/salvador-workshop)  
+[(647) 460 4027](tel:+16474604027)  
 
 ## Objective
 
@@ -23,9 +24,11 @@ I'm seeking technical roles where I can leverage my skills in software, architec
 
 ## Skills & Qualifications
 
-- Experienced with several software platforms and frameworks.<br>Has worked on front-end (React, Ember), full-stack (J2EE, .NET, Python), and cloud (Azure).
-- Solves UX and design problems with precision.<br>Has a strong understanding of design systems, processes, and tools. Plus skills with drafting/BIM tools and parametric design.
-- Has valuable experience from all over the software development lifecycle.<br>From planning to kickoff, development, delivery, and maintenance.
+Experienced with several software platforms and frameworks.<br>Has worked on front-end (React, Ember), full-stack (J2EE, .NET, Python), and cloud (Azure).
+
+Solves UX and design problems with precision.<br>Has a strong understanding of interactive web apps and design systems. Plus skills with drafting/BIM tools and parametric design.
+
+Has valuable experience from all over the software development lifecycle.<br>From planning to kickoff, development, delivery, and maintenance.
 
 ## Technical Experience
 
@@ -40,32 +43,32 @@ I'm seeking technical roles where I can leverage my skills in software, architec
 ### Senior Software Engineer — _Autodesk Construction Solutions_
 
 **Nov 2022 — Jan 2024** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada (Remote)  
-**Key technologies** — React, Node.js, Typescript, JavaScript, HTML/CSS, Storybook, Revit
+**Key technologies** — React, Node.js, TypeScript, JavaScript, HTML/CSS, Storybook, Revit
 
 - Worked on Autodesk Takeoff, an online construction estimation tool for 2D sheets and 3D models.
-- Enhanced and maintained the React front-end and 3D model viewer.
-- Leveraged in-house design system and component library to build and extend UI modules.
+- Enhanced the React front-end and Three.js-based 3D model viewer's filtering. This gave users more options for ensuring accuracy, double-checking records, and speeding up their workflows.
+- Upgraded team's UI component library to conform with the organization's high technical standards.
 
 ### Senior Associate (Experience Technology) — _Publicis Sapient_
 
 **May 2022 — Sep 2022** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada (Remote)  
-**Key technologies** — React, Next.js, Nx, JavaScript, Typescript, HTML/CSS, Storybook, AEM
+**Key technologies** — React, Next.js, Nx, TypeScript, JavaScript, HTML/CSS, Storybook, AEM
 
-- Helped lay the technical foundations of a Next.js + AEM app for a leading healthcare provider.
+- Worked on a Next.js app for a leading healthcare provider, smoothly integrating AEM with modern JS.
 
 ### Software Engineer — _Uncharted Software_
 
 **Nov 2019 — Apr 2021** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada  
 **Key technologies** — Ember.js, Cytoscape, Express.js, Python, Docker Microservices, JavaScript, HTML/CSS
 
-- Worked on Causeworks, a research app for understanding scenarios through graph analysis.
-- Integrated external analysis modules, such as a Python module from Virginia Tech researchers
-- Reworked the front-end to align the UI to our design system, and render data more effectively.
+- Worked on Causeworks, a research app for understanding scenarios through network graph analysis. Implemented as a Docker cluster with an Ember front-end and ML models running in the back-end.
+- Integrated external Python modules built in collaboration with CS researchers from Virginia Tech.
+- Reworked the front-end to align UI components to our design system, and render data effectively.
 
 ### UI Web Developer — _Intelex Technologies_
 
 **Jun 2017 — Feb 2019** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada  
-**Key technologies** — JavaScript, React, .NET, HTML/CSS, SQL Server, Jenkins
+**Key technologies** — React, JavaScript, .NET, HTML/CSS, SQL Server, Jenkins
 
 - Built a React UI on a legacy app allowing health and safety professionals to share best practices.
 - Focused on standards over time. Appointed to a group that wrote guidelines for code structure.
@@ -87,19 +90,19 @@ I'm seeking technical roles where I can leverage my skills in software, architec
 
 - LibRext is a classicist UI design system and component library for screen, paper, and e-readers.
 
-### EdiMeli — _Guild of St. Isidore (TO)_
+### Tutoring / E-Commerce Platform — _NivoTutoring_
 
-**Jun 2025 — Present** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada  
-**Key skills** — Python, LilyPond (LY), GABC, Modern Music Theory, Historical Music Theory
+**Oct 2025 — Nov 2025** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada  
+**Key skills** — React, Next.js, JavaScript, TypeScript, Prisma ORM, PostgreSQL, JWT/JOSE Authentication
 
-- EdiMeli is a music typesetting toolkit for musicians working with Gregorian notation (square notes).
+- NivoTutoring is an online tutoring platform featuring easy access to one-on-one education.
 
 ### sw-jscad — _Salvador Workshop_
 
 **Jan 2025 — Present** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada  
 **Key skills** — JavaScript, Node.js, NPM publishing, 3D Modeling, CAD/CAM Software
 
-- sw-jscad is a JavaScript library that extends JSCAD to create 2D and 3D designs.
+- sw-jscad is an open source library that uses JSCAD/Three.js to create 2D and 3D designs with JavaScript.
 
 ## Education
 
