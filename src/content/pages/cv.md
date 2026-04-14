@@ -14,7 +14,7 @@ draft: false
 [salvador-workshop.ca](https://salvador-workshop.ca)  
 [salvador.workshop@gmail.com](mailto:salvador.workshop@gmail.com)  
 [linkedin.com/in/rjsalvadorr](https://linkedin.com/in/rjsalvadorr)  
-[github.com/rjsalvadorr](https://github.com/rjsalvadorr)  
+[github.com/salvador-workshop](https://github.com/salvador-workshop)  
 [github.com/guild-st-isidore-TO](https://github.com/guild-st-isidore-TO)  
 [(647) 460 4027](tel:+16474604027)  
 
@@ -30,12 +30,21 @@ Solves UX and design problems with precision.<br>Has a strong understanding of i
 
 Has valuable experience from all over the software development lifecycle.<br>From planning to kickoff, development, delivery, and maintenance.
 
+
 ## Technical Experience
+
+### Founder, Lead Developer — _Salvador Workshop_
+
+**Jan 2025 — Present** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada  
+**Key technologies** — 2D/3D Modeling, Parametric Design, NPM Library Design, JavaScript, Open Source Dev't
+
+- Salvador Workshop (SW) is a tech-powered design studio, currently developing custom software tools for product design.
+- "swcad-js" is SW's open source CAD coding toolkit in JavaScript. This library extends JSCAD to facilitate 2D and 3D design.
 
 ### Senior Software Developer — _Konrad Group_
 
 **Jul 2024 — Nov 2024** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada (Hybrid)  
-**Key technologies** — Azure Cognitive Services (computer vision, doc. parsing), JavaScript, NestJS
+**Key technologies** — Azure Cognitive Services (Computer vision, Doc. parsing), JavaScript, NestJS
 
 - Partnered with a financial transaction processor working closely with the "Big Five" Canadian banks.
 - Upgraded cloud apps which leverage Azure Cognitive Services for anti-fraud verification.
@@ -83,26 +92,12 @@ Has valuable experience from all over the software development lifecycle.<br>Fro
 
 ## Projects
 
-### LibRext — _Guild of St. Isidore (TO)_
+### EdiMeli — _Guild of St. Isidore (TO)_
 
-**Oct 2025 — Present** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada  
-**Key skills** — CSS, Node.js, NPM workspaces, System-UI, Historical Visual Design
+**Jun 2025 — Present** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada  
+**Key skills** — Python, LilyPond (LY), GABC
 
-- LibRext is a classicist UI design system and component library for screen, paper, and e-readers.
-
-### Tutoring / E-Commerce Platform — _NivoTutoring_
-
-**Oct 2025 — Nov 2025** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada  
-**Key skills** — React, Next.js, JavaScript, TypeScript, Prisma ORM, PostgreSQL, JWT/JOSE Authentication
-
-- NivoTutoring is an online tutoring platform featuring easy access to one-on-one education.
-
-### sw-jscad — _Salvador Workshop_
-
-**Jan 2025 — Present** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada  
-**Key skills** — JavaScript, Node.js, NPM publishing, 3D Modeling, CAD/CAM Software
-
-- sw-jscad is an open source library that uses JSCAD/Three.js to create 2D and 3D designs with JavaScript.
+- EdiMeli is a music typesetting toolkit for musicians working with Gregorian notation (square notes).
 
 ## Education
 
@@ -131,7 +126,7 @@ Has valuable experience from all over the software development lifecycle.<br>Fro
 
 ### Singer / Cantor — _St. Vincent de Paul Parish (Roncesvalles)_
 
-**Oct 2024 — Nov 2025** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada  
+**Oct 2024 — Present** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toronto, Canada  
 **Key skills** — Vocal and choral musicianship, Gregorian chant, Latin language
 
 - Serving my community by singing with the choir in mass, and chanting during communal prayer.
