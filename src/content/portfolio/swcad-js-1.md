@@ -21,21 +21,23 @@ draft: false
 See the library in action here: [sw-jscad-viewer.netlify.app](https://sw-jscad-viewer.netlify.app/)   
 Check out the codebase: [github.com/salvador-workshop/swcad-js](https://github.com/salvador-workshop/swcad-js/)  
 
-![swcad-js - trimFamilyFrame](../../assets/swcad-js-1/gallery-4.png "swcad-js - trimFamilyFrame")
+![swcad-js - gallery](../../assets/swcad-js-1/gallery-4.png "swcad-js - gallery")
 
 With this many changes compared to its starting point, I felt it was natural to rename the project as well. It's admittedly confusing, but I'll eventually create more `swcad` tools in other languages/platforms. So `swcad-js` made sense to me.
 
-![swcad-js - trimFamilyFrame](../../assets/swcad-js-1/wall-2.png "swcad-js - trimFamilyFrame")
+![swcad-js - wall](../../assets/swcad-js-1/wall-2.png "swcad-js - wall")
 
 ## Rationale
 
 Why write and use `swcad-js`?
 
-- `jscad` and `sw-jscad` have already made it possible for me to design precise models with my web developer skills. More investment in time/resources feels like a solid bet, in terms of code-CAD benefits.
-- `jscad` is in active development, and setting up an open-source library allows me to leverage the JSCAD ecosystem's tooling, plus the JS + Node ecosystems as well.
-- Free web-based tooling enables some of what corporate software houses have been promising (_powerful precise applications without installs_), without the drawbacks to access (_heavy DRM, connectivity failures_). This gives code-CAD toolmakers a degree of digital self-sufficiency/sovereignity that provides insulation from profit-motivated bad decisions.
+`jscad` and `sw-jscad` have already made it possible for me to design precise models with my web developer skills (see ["3D-printed Dowel Components"](/portfolio/dowel-components-1/)). More investment in time/resources feels like a solid bet, in terms of code-CAD benefits.
 
-![swcad-js - trimFamilyFrame](../../assets/swcad-js-1/wall-entryway-1.png "swcad-js - trimFamilyFrame")
+`jscad` is in active development, and setting up an open-source library allows me to leverage the JSCAD ecosystem's tooling, plus the JS + Node ecosystems as well.
+
+Free web-based tooling enables some of what corporate software houses have been promising (_powerful precise applications without installs_), without the drawbacks to access (_heavy DRM, connectivity failures_). This gives code-CAD toolmakers a degree of digital self-sufficiency that insulates from enshittification of proprietary tools.
+
+![swcad-js - wallEntryway](../../assets/swcad-js-1/wall-entryway-1.png "swcad-js - wallEntryway")
 
 ## Notable changes and additions
 
