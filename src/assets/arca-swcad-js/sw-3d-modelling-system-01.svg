@@ -1,0 +1,243 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="875pt" height="441pt" viewBox="0.00 0.00 875.14 440.8">
+<g id="graph0" class="graph" transform="translate(4,436.79998779296875) scale(1)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-436.8 871.14,-436.8 871.14,4 -4,4"/>
+<text text-anchor="middle" x="433.57" y="-25" font-family="Times,serif" font-size="14.00">Salvador Workshop</text>
+<text text-anchor="middle" x="433.57" y="-8.2" font-family="Times,serif" font-size="14.00">3D Modelling System 01</text>
+
+<g id="clust2" class="cluster" data-name="cluster_1">
+
+<polygon fill="none" stroke="black" points="8,-65.6 8,-340 836,-340 836,-65.6 8,-65.6"/>
+<text text-anchor="middle" x="422" y="-323.4" font-family="Times,serif" font-size="14.00">arca-foundry-js/</text>
+</g>
+<g id="clust4" class="cluster" data-name="cluster_3">
+
+<polygon fill="#ebebeb" stroke="black" stroke-width="2" points="206,-73.6 206,-150.4 425,-150.4 425,-73.6 206,-73.6"/>
+<text text-anchor="middle" x="315.5" y="-133.8" font-family="Times,serif" font-size="14.00">arca-foundry-js/src/assembly-scripts</text>
+</g>
+<g id="clust3" class="cluster" data-name="cluster_2">
+
+<polygon fill="#ebebeb" stroke="black" stroke-width="2" points="403,-158.4 403,-307.2 828,-307.2 828,-158.4 403,-158.4"/>
+<text text-anchor="middle" x="615.5" y="-290.6" font-family="Times,serif" font-size="14.00">arca-foundry-js/packages</text>
+</g><g id="clust5" class="cluster" data-name="cluster_4">
+
+<polygon fill="#ebebeb" stroke="black" stroke-width="2" points="16,-158.4 16,-307.2 395,-307.2 395,-158.4 16,-158.4"/>
+<text text-anchor="middle" x="205.5" y="-290.6" font-family="Times,serif" font-size="14.00">arca-foundry-js/input</text>
+</g>
+<!-- swcadJs --><g id="clust1" class="cluster" data-name="cluster_0" data-comment="swcadJs">
+
+<polygon fill="none" stroke="red" points="615,-348 615,-424.8 833,-424.8 833,-348 615,-348"/>
+<text text-anchor="middle" x="724" y="-408.2" font-family="Times,serif" font-size="14.00">swcad-js/</text>
+</g>
+
+<!-- component1 -->
+<g id="node5" class="node" pointer-events="visible" data-name="component1">
+
+<polygon fill="none" stroke="darkgreen" points="820.21,-274.4 731.79,-274.4 731.79,-238.4 820.21,-238.4 820.21,-274.4"/>
+<text text-anchor="middle" x="776" y="-252.2" font-family="Times,serif" font-size="14.00">component 1</text>
+</g>
+<!-- swcadJs&#45;&gt;component1 -->
+
+<!-- assembler1 --><g id="edge14" class="edge" data-name="libraryPackage1-&gt;component1" data-comment="assembler1">
+
+<path fill="none" stroke="red" d="M778.35,-348C778.12,-339.28 777.86,-329.07 777.59,-318.71"/>
+<polygon fill="red" stroke="red" points="781.09,-318.62 777.33,-308.71 774.09,-318.8 781.09,-318.62"/>
+</g>
+<g id="node9" class="node" pointer-events="visible" data-name="assembler1">
+
+<polygon fill="none" stroke="orange" points="417.48,-117.6 414.48,-121.6 393.48,-121.6 390.48,-117.6 338.52,-117.6 338.52,-81.6 417.48,-81.6 417.48,-117.6"/>
+<text text-anchor="middle" x="378" y="-95.4" font-family="Times,serif" font-size="14.00">assembler1</text>
+</g>
+<!-- swcadJs&#45;&gt;assembler1 -->
+
+<!-- componentPackage1 --><g id="edge15" class="edge" data-name="libraryPackage1-&gt;assembler1" data-comment="componentPackage1">
+
+<path fill="none" stroke="red" d="M826.2,-348C828.43,-345.55 830.4,-342.88 832,-340 871.19,-269.44 885.35,-218.97 832,-158.4 805.69,-128.53 542.34,-110 429.21,-103.37"/>
+<polygon fill="red" stroke="red" points="436.92,-101.03 426.5,-102.94 435.83,-107.95 436.92,-101.03"/>
+</g>
+<g id="node3" class="node" pointer-events="visible" data-name="componentPackage1">
+
+<polygon fill="none" stroke="blue" points="727.21,-202.4 724.21,-206.4 703.21,-206.4 700.21,-202.4 610.79,-202.4 610.79,-166.4 727.21,-166.4 727.21,-202.4"/>
+<text text-anchor="middle" x="669" y="-180.2" font-family="Times,serif" font-size="14.00">component pkg. 1</text>
+</g>
+<!-- component1&#45;&gt;componentPackage1 --><g id="node1" class="node" pointer-events="visible" data-name="libraryPackage1" data-comment="component1-&gt;componentPackage1">
+
+<polygon fill="none" stroke="red" points="824.82,-392 821.82,-396 800.82,-396 797.82,-392 733.18,-392 733.18,-356 824.82,-356 824.82,-392"/>
+<text text-anchor="middle" x="779" y="-369.8" font-family="Times,serif" font-size="14.00">library pkg. 1</text>
+</g>
+<g id="edge1" class="edge" data-name="component1-&gt;componentPackage1">
+
+<path fill="none" stroke="blue" d="M749.28,-237.92C735.77,-229.08 719.19,-218.24 704.62,-208.7"/>
+<polygon fill="blue" stroke="blue" points="706.94,-206.03 696.65,-203.49 703.1,-211.89 706.94,-206.03"/>
+</g>
+<!-- componentPackage1&#45;&gt;assembler1 --><g id="node2" class="node" pointer-events="visible" data-name="libraryPackage2" data-comment="componentPackage1-&gt;assembler1">
+
+<polygon fill="none" stroke="red" points="714.82,-392 711.82,-396 690.82,-396 687.82,-392 623.18,-392 623.18,-356 714.82,-356 714.82,-392"/>
+<text text-anchor="middle" x="669" y="-369.8" font-family="Times,serif" font-size="14.00">library pkg. 2</text>
+</g>
+<g id="edge10" class="edge" data-name="componentPackage1-&gt;assembler1">
+
+<path fill="none" stroke="darkgreen" d="M581.15,-158.4C531.33,-144.23 470.77,-127 428.79,-115.05"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="437.03,-113.86 426.45,-114.35 435.03,-120.57 437.03,-113.86"/>
+</g>
+<!-- componentPackage2 -->
+<g id="node4" class="node" pointer-events="visible" data-name="componentPackage2">
+
+<polygon fill="none" stroke="blue" points="560.21,-202.4 557.21,-206.4 536.21,-206.4 533.21,-202.4 443.79,-202.4 443.79,-166.4 560.21,-166.4 560.21,-202.4"/>
+<text text-anchor="middle" x="502" y="-180.2" font-family="Times,serif" font-size="14.00">component pkg. 2</text>
+</g>
+<!-- component2 -->
+<g id="node6" class="node" pointer-events="visible" data-name="component2">
+
+<polygon fill="none" stroke="darkgreen" points="713.21,-274.4 624.79,-274.4 624.79,-238.4 713.21,-238.4 713.21,-274.4"/>
+<text text-anchor="middle" x="669" y="-252.2" font-family="Times,serif" font-size="14.00">component 2</text>
+</g>
+<!-- component2&#45;&gt;componentPackage1 -->
+<g id="edge2" class="edge" data-name="component2-&gt;componentPackage1">
+
+<path fill="none" stroke="blue" d="M669,-238.1C669,-230.81 669,-222.13 669,-213.94"/>
+<polygon fill="blue" stroke="blue" points="672.5,-214.02 669,-204.02 665.5,-214.02 672.5,-214.02"/>
+</g>
+<!-- component3 -->
+<g id="node7" class="node" pointer-events="visible" data-name="component3">
+
+<polygon fill="none" stroke="darkgreen" points="606.21,-274.4 517.79,-274.4 517.79,-238.4 606.21,-238.4 606.21,-274.4"/>
+<text text-anchor="middle" x="562" y="-252.2" font-family="Times,serif" font-size="14.00">component 3</text>
+</g>
+<!-- component3&#45;&gt;componentPackage2 -->
+<g id="edge3" class="edge" data-name="component3-&gt;componentPackage2">
+
+<path fill="none" stroke="blue" d="M547.17,-238.1C540.19,-229.96 531.73,-220.09 524.03,-211.1"/>
+<polygon fill="blue" stroke="blue" points="526.81,-208.97 517.65,-203.65 521.5,-213.52 526.81,-208.97"/>
+</g>
+<!-- component4 -->
+<g id="node8" class="node" pointer-events="visible" data-name="component4">
+
+<polygon fill="none" stroke="darkgreen" points="499.21,-274.4 410.79,-274.4 410.79,-238.4 499.21,-238.4 499.21,-274.4"/>
+<text text-anchor="middle" x="455" y="-252.2" font-family="Times,serif" font-size="14.00">component 4</text>
+</g>
+<!-- component4&#45;&gt;componentPackage2 -->
+<g id="edge4" class="edge" data-name="component4-&gt;componentPackage2">
+
+<path fill="none" stroke="blue" d="M466.62,-238.1C471.91,-230.21 478.3,-220.7 484.18,-211.95"/>
+<polygon fill="blue" stroke="blue" points="487,-214.01 489.67,-203.76 481.19,-210.11 487,-214.01"/>
+</g>
+<!-- assembler2 -->
+<g id="node10" class="node" pointer-events="visible" data-name="assembler2">
+
+<polygon fill="none" stroke="orange" points="292.48,-117.6 289.48,-121.6 268.48,-121.6 265.48,-117.6 213.52,-117.6 213.52,-81.6 292.48,-81.6 292.48,-117.6"/>
+<text text-anchor="middle" x="253" y="-95.4" font-family="Times,serif" font-size="14.00">assembler2</text>
+</g>
+<!-- config1 -->
+<g id="node11" class="node" pointer-events="visible" data-name="config1">
+
+<polygon fill="none" stroke="black" points="381.27,-274.4 328.73,-274.4 328.73,-238.4 387.27,-238.4 387.27,-268.4 381.27,-274.4"/>
+<polyline fill="none" stroke="black" points="381.27,-274.4 381.27,-268.4"/>
+<polyline fill="none" stroke="black" points="387.27,-268.4 381.27,-268.4"/>
+<text text-anchor="middle" x="358" y="-252.2" font-family="Times,serif" font-size="14.00">config1</text>
+</g>
+<!-- project1 -->
+<g id="node16" class="node" pointer-events="visible" data-name="project1">
+
+<polygon fill="none" stroke="black" points="386.87,-202.4 383.87,-206.4 362.87,-206.4 359.87,-202.4 325.13,-202.4 325.13,-166.4 386.87,-166.4 386.87,-202.4"/>
+<text text-anchor="middle" x="356" y="-180.2" font-family="Times,serif" font-size="14.00">project1</text>
+</g>
+<!-- config1&#45;&gt;project1 -->
+<g id="edge5" class="edge" data-name="config1-&gt;project1">
+
+<path fill="none" stroke="black" d="M357.51,-238.1C357.3,-230.81 357.05,-222.13 356.82,-213.94"/>
+<polygon fill="black" stroke="black" points="360.32,-213.91 356.53,-204.02 353.32,-214.11 360.32,-213.91"/>
+</g>
+<!-- config2 -->
+<g id="node12" class="node" pointer-events="visible" data-name="config2">
+
+<polygon fill="none" stroke="black" points="304.27,-274.4 251.73,-274.4 251.73,-238.4 310.27,-238.4 310.27,-268.4 304.27,-274.4"/>
+<polyline fill="none" stroke="black" points="304.27,-274.4 304.27,-268.4"/>
+<polyline fill="none" stroke="black" points="310.27,-268.4 304.27,-268.4"/>
+<text text-anchor="middle" x="281" y="-252.2" font-family="Times,serif" font-size="14.00">config2</text>
+</g>
+<!-- project2 -->
+<g id="node17" class="node" pointer-events="visible" data-name="project2">
+
+<polygon fill="none" stroke="black" points="283.87,-202.4 280.87,-206.4 259.87,-206.4 256.87,-202.4 222.13,-202.4 222.13,-166.4 283.87,-166.4 283.87,-202.4"/>
+<text text-anchor="middle" x="253" y="-180.2" font-family="Times,serif" font-size="14.00">project2</text>
+</g>
+<!-- config2&#45;&gt;project2 -->
+<g id="edge6" class="edge" data-name="config2-&gt;project2">
+
+<path fill="none" stroke="black" d="M274.08,-238.1C271.06,-230.55 267.45,-221.52 264.07,-213.08"/>
+<polygon fill="black" stroke="black" points="267.37,-211.89 260.4,-203.91 260.87,-214.49 267.37,-211.89"/>
+</g>
+<!-- config3 -->
+<g id="node13" class="node" pointer-events="visible" data-name="config3">
+
+<polygon fill="none" stroke="black" points="152.27,-274.4 99.73,-274.4 99.73,-238.4 158.27,-238.4 158.27,-268.4 152.27,-274.4"/>
+<polyline fill="none" stroke="black" points="152.27,-274.4 152.27,-268.4"/>
+<polyline fill="none" stroke="black" points="158.27,-268.4 152.27,-268.4"/>
+<text text-anchor="middle" x="129" y="-252.2" font-family="Times,serif" font-size="14.00">config3</text>
+</g>
+<!-- project3 -->
+<g id="node18" class="node" pointer-events="visible" data-name="project3">
+
+<polygon fill="none" stroke="black" points="159.87,-202.4 156.87,-206.4 135.87,-206.4 132.87,-202.4 98.13,-202.4 98.13,-166.4 159.87,-166.4 159.87,-202.4"/>
+<text text-anchor="middle" x="129" y="-180.2" font-family="Times,serif" font-size="14.00">project3</text>
+</g>
+<!-- config3&#45;&gt;project3 -->
+<g id="edge8" class="edge" data-name="config3-&gt;project3">
+
+<path fill="none" stroke="black" d="M129,-238.1C129,-230.81 129,-222.13 129,-213.94"/>
+<polygon fill="black" stroke="black" points="132.5,-214.02 129,-204.02 125.5,-214.02 132.5,-214.02"/>
+</g>
+<!-- model2 -->
+<g id="node14" class="node" pointer-events="visible" data-name="model2">
+
+<polygon fill="none" stroke="black" points="233.99,-274.4 180.01,-274.4 176.01,-270.4 176.01,-238.4 229.99,-238.4 233.99,-242.4 233.99,-274.4"/>
+<polyline fill="none" stroke="black" points="229.99,-270.4 176.01,-270.4"/>
+<polyline fill="none" stroke="black" points="229.99,-270.4 229.99,-238.4"/>
+<polyline fill="none" stroke="black" points="229.99,-270.4 233.99,-274.4"/>
+<text text-anchor="middle" x="205" y="-252.2" font-family="Times,serif" font-size="14.00">model2</text>
+</g>
+<!-- model2&#45;&gt;project2 -->
+<g id="edge7" class="edge" data-name="model2-&gt;project2">
+
+<path fill="none" stroke="black" d="M216.87,-238.1C222.27,-230.21 228.79,-220.7 234.8,-211.95"/>
+<polygon fill="black" stroke="black" points="237.65,-213.98 240.42,-203.75 231.87,-210.02 237.65,-213.98"/>
+</g>
+<!-- model3 -->
+<g id="node15" class="node" pointer-events="visible" data-name="model3">
+
+<polygon fill="none" stroke="black" points="81.99,-274.4 28.01,-274.4 24.01,-270.4 24.01,-238.4 77.99,-238.4 81.99,-242.4 81.99,-274.4"/>
+<polyline fill="none" stroke="black" points="77.99,-270.4 24.01,-270.4"/>
+<polyline fill="none" stroke="black" points="77.99,-270.4 77.99,-238.4"/>
+<polyline fill="none" stroke="black" points="77.99,-270.4 81.99,-274.4"/>
+<text text-anchor="middle" x="53" y="-252.2" font-family="Times,serif" font-size="14.00">model3</text>
+</g>
+<!-- model3&#45;&gt;project3 -->
+<g id="edge9" class="edge" data-name="model3-&gt;project3">
+
+<path fill="none" stroke="black" d="M71.79,-238.1C80.83,-229.77 91.84,-219.62 101.78,-210.47"/>
+<polygon fill="black" stroke="black" points="104.07,-213.12 109.05,-203.77 99.33,-207.97 104.07,-213.12"/>
+</g>
+<!-- project1&#45;&gt;assembler1 -->
+<g id="edge11" class="edge" data-name="project1-&gt;assembler1">
+
+<path fill="none" stroke="orange" d="M360.56,-166.24C363.43,-155.44 367.21,-141.23 370.51,-128.79"/>
+<polygon fill="orange" stroke="orange" points="373.8,-130.05 372.98,-119.48 367.03,-128.25 373.8,-130.05"/>
+</g>
+
+<!-- project2&#45;&gt;assembler2 -->
+<!-- project2&#45;&gt;assembler2 -->
+<g id="edge12" class="edge" data-name="project2-&gt;assembler2">
+
+<path fill="none" stroke="orange" d="M253,-166.24C253,-155.55 253,-141.52 253,-129.17"/>
+<polygon fill="orange" stroke="orange" points="256.5,-129.53 253,-119.53 249.5,-129.53 256.5,-129.53"/>
+</g>
+<!-- project3&#45;&gt;assembler2 -->
+
+<g id="edge13" class="edge" data-name="project3-&gt;assembler2">
+
+<path fill="none" stroke="orange" d="M154.99,-166.04C173.18,-153.9 197.69,-137.53 217.65,-124.2"/>
+<polygon fill="orange" stroke="orange" points="219.41,-127.24 225.78,-118.78 215.52,-121.42 219.41,-127.24"/>
+</g>
+</g>
+</svg>
