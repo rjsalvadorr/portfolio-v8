@@ -43,17 +43,11 @@ This endeavour led to the development of two related software projects:
 
 `arca-foundry-js` is a parametric builder for printable component kits. It's centred around a component library built using `swcad-js`. As a proof-of-concept, I've designed several types of organizers. The models for which are generated as a kit, to be printed and assembled into the final product.
 
-![sdf](../../assets/arca-swcad-js/box-with-hangers.png)
+![sdf](../../assets/arca-swcad-js/design-box-with-hangers.jpg)
 
-![sdf](../../assets/arca-swcad-js/printed-box-with-hangers.jpg)
+![sdf](../../assets/arca-swcad-js/design-open-two-level-shelf-v1.jpg)
 
-![sdf](../../assets/arca-swcad-js/open-two-level-shelf-v1.png)
-
-![sdf](../../assets/arca-swcad-js/printed-open-two-level-shelf-v1.jpg)
-
-![sdf](../../assets/arca-swcad-js/two-level-shelf.png)
-
-![sdf](../../assets/arca-swcad-js/printed-two-level-shelf.jpg)
+![sdf](../../assets/arca-swcad-js/design-two-level-shelf.jpg)
 
 ### Known issues
 
